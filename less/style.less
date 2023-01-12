@@ -1,0 +1,47 @@
+// out: ../css/style.css
+
+html, body, h1,h2,h3,h4,h5,h6,a,p{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+}
+
+.wroper{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px auto;
+    background-color: #00d2d3;
+
+    .slick-slaider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .slide{
+            width: 640px;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+    .slick-arrow{
+        background-color: rgb(112, 107, 112);
+        color: black;
+        opacity: 0.8;
+
+        &:hover{
+            background-color: rgb(73, 70, 73);
+            opacity: 1;
+        }
+    }
+    .slick-dots{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        
+        .button{
+            opacity: 0;
+            display: none;
+        }
+    }
+}

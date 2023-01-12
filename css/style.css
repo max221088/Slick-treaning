@@ -1,0 +1,50 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: black;
+  border: none;
+}
+.wroper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px auto;
+  background-color: #00d2d3;
+}
+.wroper .slick-slaider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wroper .slick-slaider .slide {
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+}
+.wroper .slick-arrow {
+  background-color: #706b70;
+  color: black;
+  opacity: 0.8;
+}
+.wroper .slick-arrow:hover {
+  background-color: #494649;
+  opacity: 1;
+}
+.wroper .slick-dots {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.wroper .slick-dots .button {
+  opacity: 0;
+  display: none;
+}
